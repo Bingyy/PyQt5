@@ -3,14 +3,15 @@
 # useage: Free to use 
 
 import sys
-from PyQt5.QtGui import *
-from PyQt5.QtWidgets import *
+from PyQt5.QtGui import QIcon
+from PyQt5.QtWidgets import QWidget, QApplication
 
 class MyWidget(QWidget):
 	def __init__(self):
 		super().__init__()
-		self.setGeometry(0,0,800,600) # 设定坐标为0,0，大小为800,600
+		self.resize(800,600) 
 		self.setWindowTitle('myapp') # 设置窗口标题
+		self.setWindowIcon(QIcon('icons/lion.png')) # QIcon类实例
         
 myapp = QApplication(sys.argv) # 任何窗口程序都需要一个QApplication实例
 mywidget = MyWidget()

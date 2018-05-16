@@ -1,8 +1,5 @@
 # PyQt5
 
-notes: *.md files
-codes: *.py files
-
 ### 已完成代码片段目录
 
 - 最简单的窗体应用

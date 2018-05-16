@@ -24,7 +24,7 @@ class Example(QMainWindow): # 用的父类是QMainWindow
         
         
     def initUI(self):               
-        
+        # 显示出来QMainWindow自带的状态栏对象并显示文字
         self.statusBar().showMessage('Ready')
         
         self.setGeometry(300, 300, 450, 450)

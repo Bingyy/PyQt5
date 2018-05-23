@@ -27,7 +27,7 @@ class Example(QWidget):
     def initUI(self):               
 
         qbtn = QPushButton('Quit', self)
-        qbtn.clicked.connect(QCoreApplication.instance().quit) # 信号-槽机制
+        qbtn.clicked.connect(QCoreApplication.instance().quit) # 信号-槽机制,此处的槽是自带的
         qbtn.resize(qbtn.sizeHint())
         qbtn.move(50, 50)       
 

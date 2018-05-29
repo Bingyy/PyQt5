@@ -35,7 +35,7 @@ class Example(QWidget):
 		grid.addWidget(review, 2, 0)
 		grid.addWidget(reviewEdit, 2, 1, 5, 1) # 占据空间：5行，1列
 
-		self.setLayout(grid)
+		self.setLayout(grid) # 在Widget上使用grid布局
 		self.setGeometry(300, 300, 350, 300)
 		self.setWindowTitle('Review')
 		self.show()

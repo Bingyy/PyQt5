@@ -47,7 +47,7 @@ class Example(QWidget):
         qp.setPen(pen)
         qp.drawLine(20, 40, 250, 40)
 
-        pen.setStyle(Qt.DashLine)
+        pen.setStyle(Qt.DashLine) # 设置画笔风格
         qp.setPen(pen)
         qp.drawLine(20, 80, 250, 80)
 

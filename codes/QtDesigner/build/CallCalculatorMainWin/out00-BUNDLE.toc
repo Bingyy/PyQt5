@@ -1,0 +1,3 @@
+([('CallCalculatorMainWin',
+   '/Users/rick/programmer/Python/PyQt5/codes/QtDesigner/dist/CallCalculatorMainWin',
+   'EXECUTABLE')],)

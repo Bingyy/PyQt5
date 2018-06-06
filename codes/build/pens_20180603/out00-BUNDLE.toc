@@ -1,0 +1,3 @@
+([('pens_20180603',
+   '/Users/rick/programmer/Python/PyQt5/codes/dist/pens_20180603',
+   'EXECUTABLE')],)

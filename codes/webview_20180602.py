@@ -4,6 +4,6 @@ from PyQt5.QtCore import QUrl
 
 app = QApplication([])
 view = QWebEngineView()
-view.load(QUrl('images/map.png'))
+view.load(QUrl("http://www.baidu.com")) # 必须有http
 view.show()
 app.exec_()
